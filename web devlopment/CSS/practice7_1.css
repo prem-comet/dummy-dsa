@@ -1,0 +1,47 @@
+#A{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    
+}
+
+#a{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgb(229, 13, 13);
+    border-radius: 50%;
+}
+
+#b{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color:yellow;
+    border-radius: 50%;
+}
+
+#c{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#d{
+    height:150px;
+    width:30px;
+    background-color: black;
+    margin-left: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#a:hover {
+    box-shadow: 0 0 8px red;
+}

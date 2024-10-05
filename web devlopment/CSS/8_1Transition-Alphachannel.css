@@ -1,0 +1,48 @@
+.dis{
+    height: 900px;
+    width: 900px;
+    background-color: rgb(173, 27, 176);
+    display:inline-flex;
+}
+#xyz{
+    background-color: rgba(6, 253, 43, 0.982);
+    height: 200px;
+    width: 200px;
+    transition-duration:  0.5s;
+    transition-delay: 1s;
+    
+    
+}
+
+#xyz:hover{
+    background-color: aqua;
+    border-radius: 50%;
+   
+
+
+}
+
+#automatic{
+    background-color: rgba(6, 253, 43, 0.982);
+    height: 200px;
+    width: 200px;
+   
+    
+}
+
+#automatic:hover{
+    margin-top: 400px;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+
+
+
+#abc{
+    background-color: blue;
+    color: chartreuse;
+    height: 200px;
+    width: 200px;
+    opacity: 0.6;
+   
+
+}

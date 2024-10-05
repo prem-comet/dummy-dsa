@@ -1,0 +1,19 @@
+#myweb p{
+   color:rgb(0, 0, 0);
+   background-color: cadetblue;
+}
+
+div[id="super"] p{
+    color:darkblue;
+    background-color: rgb(154, 130, 68);
+}
+
+p+h4{
+    color:blueviolet;
+    background-color: beige;
+}
+h4+button{
+    color:aqua;
+    background-color: darkmagenta;
+
+}

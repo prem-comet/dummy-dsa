@@ -1,0 +1,23 @@
+h1{
+    color:red;
+    font-size: 50px;
+    
+}
+h1::first-letter{
+    color: rgb(0, 128, 36);
+}
+
+
+p{
+    color:chocolate;
+    
+}
+
+p::first-line{
+    color:blueviolet;
+
+}
+
+p::selection{
+    background-color: rgb(180, 162, 0);
+}

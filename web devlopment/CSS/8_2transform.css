@@ -1,0 +1,62 @@
+div{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+#fir{
+    transform:rotate(90deg);
+}
+#sec:hover{
+    margin-right:400px;
+    background-color: chartreuse;
+}
+
+#sec{
+    transform:rotate(76deg);  /*by using transform rotate property we can rotate div bloack by 
+                               some angle */
+}                          
+
+#thi{
+    transform:scale(2);  /*  by using this transform scale property we can change (increase or decrease) 
+                            the size of block or div */
+
+}
+
+#fou{
+    transform:scale(2 ,0.5);  /*  by using this transform scale property we can change (increase or decrease) 
+                            the size of block or div */
+                                                  
+}
+
+#fiv{  
+    transform:scaleX(2);  /*  by using this transform scale property we can change (increase or decrease) 
+                            the size of block or div */
+    transform:scaleY(2);  /*  by using this transform scale property we can change (increase or decrease) 
+                            the size of block or div */
+    }
+
+
+#six{
+
+    transform:translate(500px,-450px);  
+    /* we can move block or div in x ,y direction with respect to initial position
+    for moving block or div in upward direction we use -ve px */
+    
+}
+
+
+#sev{
+    transform:skew(-26deg);  
+    /* by using this tranform skew property we can tilt the block or div by some angle either in positive as 
+    well as -ve direction */
+
+    transform:translate(600px,-300px) rotate(67deg)  scale(3,0.6);
+
+    /* IF we want to apply more than one or more property or transform in same block or div
+    then we have to write property in same line with no comma Example you can see above */
+}
+
+

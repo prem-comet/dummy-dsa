@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+    <form action="action.php">
+       
+        <label>   <!--Label is used to connect to input box and username-->
+        username   <!-- place holder is just a additional or alternate name when input box is empty
+                      placeholder is specially used so that person can see input box and can understand 
+                     what should be filled in input box-->
+        <input type="text" placeholder="enter your username">
+        <br>
+        </label>
+       
+        <label for="123"> <!-- when input box is outside the label tag then to make a connection between
+                              username and input box we use for= value of id in label and we use
+                               id= value in input along with placeholder and text (username)-->
+            username
+            
+            </label>
+            <input type="text" id="123" placeholder="enter your username">
+            <br>
+        age
+        <input type="number">
+        <br>
+        password
+        <input type="password" placeholder="enter your password">
+        <br>
+        Date of Birth
+        <input type="date">
+        <br>
+        Appointment time to meet us
+        <input type="time">
+        <br>
+        select your color
+        <input type="color">
+        <br>
+       
+        <p> Are you gay</p>
+         Yes
+        <input type="checkbox">
+        <br>
+        No
+        <input type="checkbox">
+        <br>
+        
+        <!--types of button-->
+        <button> Submit</button>        <!--by default submit information of form when any type of button is clicked-->
+        <button type="button">  button </button>
+        <button type="reset">reset</button>   
+         
+        <!-- creating button using input tag-->
+        <input type="submit">
+        <input type="submit" value="click next">
+        <input type="button" value="click me">    <!-- it is normal button it does not submit information-->
+        
+       
+    </form>
+
+     <!--when button is outside the form tag then is not submit information
+         it simply acts as normal button-->
+         <button> hello </button>
+         
+
+
+    
+</body>
+</html>

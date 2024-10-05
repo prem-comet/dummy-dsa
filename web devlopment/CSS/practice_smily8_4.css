@@ -1,0 +1,26 @@
+#f{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.e{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+#m{
+    height: 35px;
+    width: 80px;
+    background-color: red;
+    border-radius: 0 0 35px 35px;
+    position: relative;
+    top:90px ;
+    left:60px ;
+}

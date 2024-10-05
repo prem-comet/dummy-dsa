@@ -1,0 +1,20 @@
+h1{
+    display:inline;
+    background-color: aqua;
+}
+
+h2{
+    display:inline;
+    background-color: blue;
+}
+
+span{
+    display:block;
+    background-color: brown;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+}

@@ -1,0 +1,19 @@
+h1{
+    color: black;
+    background-color:rgb(214, 122, 127);
+}
+
+p{
+    color:blue;
+    background-color: blanchedalmond;
+}
+
+button{
+    color:blueviolet;
+    background-color:chartreuse;
+}
+
+button{
+    color:coral;
+    background-color: lawngreen;
+}

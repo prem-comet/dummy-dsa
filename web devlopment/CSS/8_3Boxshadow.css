@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+    background-image: url("https://i.pinimg.com/originals/e9/77/72/e977721f80ea402163babe0527884050.jpg");
+    background-size: cover;
+}
+#shadoweffect{
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(7, 241, 31);
+    margin-left: 40%;
+    box-shadow:  3px -6px 10px gray;
+    /* box shadow is used to create 3D effect by given format above */
+}
+
+#image{
+    height: 300px;
+    width: 800px;
+    background-color: aqua;
+    margin-left: 400px;
+    margin-top: 10px;
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+    background-size: cover;
+     /* cover-> crop contain->repeat image area  auto->stretched or zoomin */
+     /* mostly we use only background-size cover */
+}

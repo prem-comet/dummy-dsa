@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3,h1{
+    color:#b92b27;
+    background-color: aliceblue;
+
+
+}
+
+button{
+    color:blue;
+    background-color: aqua;
+}
+
+#login{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+#signup{
+    color:#b92b27;
+    background-color: aliceblue;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.upvote{
+    color:cornsilk;
+    background-color: chartreuse;
+}

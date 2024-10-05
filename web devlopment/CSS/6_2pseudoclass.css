@@ -1,0 +1,48 @@
+button{
+    color:blue;
+    background-color: antiquewhite;
+}
+
+h1{
+    color:red;
+    background-color: blanchedalmond;
+    font-size: medium;
+    text-decoration: blue double underline;
+
+}
+
+h1:hover{
+   text-align:center;
+   font-size: 50px;
+    
+}
+
+button:hover{
+    color:yellow;
+    background-color: blueviolet;
+
+}
+
+h2:active{
+    color:darkviolet;
+    font-size: 50px;
+}
+
+button:active{
+    color:rgb(3, 115, 3);
+    background-color: rgb(239, 236, 233);
+}
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+
+}
+.pi:nth-last-of-type(2n){
+    background-color: aqua;
+
+}
+
+.pi:nth-last-of-type(2n+1){
+    background-color: brown;
+}

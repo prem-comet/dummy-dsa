@@ -1,0 +1,20 @@
+h2{
+    color:orange;
+    text-align: center;
+}
+
+button{
+    color:white;
+    background-color: blue;
+}
+
+p{
+    color:white;
+    text-align: right;
+    background-color: #a8eb34;
+}
+b{
+    color:black;
+    background-color:beige;
+    text-align: left;
+}
